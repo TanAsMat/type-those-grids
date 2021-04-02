@@ -1,14 +1,12 @@
 html {
   box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  font-style: none;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
-/*
-font-family: "Merriweather", serif;
-*/
 
 body {
   padding: 1rem, 1.5rem;
@@ -16,19 +14,16 @@ body {
 }
 
 h1 {
-  font-family: "Merriweather", serif;
+  font-style: italic;
   font-size: 1.8rem;
-  line-height: 1.5;
 }
 
 main {
-  font-family: "Merriweather", serif;
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-aside {
-  font-family: "Merriweather", serif;
-  font-size: 1.5rem;
-  line-height: 1.5;
+  background-color: #464646;
+  background-image: url(../images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656);
+  background-size: cover;
+  background-position: top;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
 }
