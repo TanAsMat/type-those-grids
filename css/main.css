@@ -9,3 +9,26 @@ html {
 /*
 font-family: "Merriweather", serif;
 */
+
+body {
+  padding: 1rem, 1.5rem;
+  margin: 1rem, 1.5rem;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+main {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+aside {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
