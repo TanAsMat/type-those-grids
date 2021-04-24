@@ -1,16 +1,19 @@
 html {
   box-sizing: border-box;
   font-family: 'Merriweather', serif;
-  font-style: none;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+img {
+  width: 100%;
+}
+
 body {
-  padding: 1rem, 1.5rem;
-  margin: 1rem, 1.5rem;
+  margin: 0;
 }
 
 h1 {
@@ -19,11 +22,25 @@ h1 {
 }
 
 main {
-  background-color: #464646;
-  background-image: url(../images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656);
-  background-size: cover;
-  background-position: top;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "banner banner banner"
+    "col1 col2 col3";
+  gap: .75;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+  gap: 1em;
+}
+
+.aside-grid {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-areas:
+  "header header header"
+  "main main main"
+  "temple rhodes babylon";
 }
